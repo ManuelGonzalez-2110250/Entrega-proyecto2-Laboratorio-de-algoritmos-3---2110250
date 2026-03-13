@@ -1,6 +1,6 @@
 >Manuel González_21-10250
 
-##Para ejecutar:
+## Para ejecutar:
 Antes de nada, se debe crear un archivo de nombre **"deck.csv"** que se encuentre en la misma carpeta dónde se encuentren los archivos descargados. Luego se debe ejecutar el CMD en la carpeta dónde está descargado el archivo, luego se usa el comando **"make"** para compilar el archivo. Una vez se compile se ejecuta usando el comando **./runMundoChiquito.sh**. El archivo *"deck.csv"* es una colección de string compuesto con el formato Nombre,Nivel,Atributo,Poder un ejemplo sería:
 
 >mostroUno,5,LUZ,2100
@@ -9,7 +9,7 @@ Antes de nada, se debe crear un archivo de nombre **"deck.csv"** que se encuentr
 
 >mostroTres,7,VIENTO,2500
 
-##Para el diseño de la funciones:
+## Para el diseño de la funciones:
 
 **CartaMostro** Clase principal para ayudar el como se almacenan las cartas, se sigue el esquema presentado, junto con un init para verificar las precondiciones de "nivel de 1 a 12, poder múltiplo de 50 y atributo entre AGUA, FUEGO, VIENTO, TIERRA, LUZ, OSCURIDAD o DIVINO." Adicionalmente cuenta con "toString()" que imprime el nombre, para el "joinToString()" del main al imprimir las cartas.
 
